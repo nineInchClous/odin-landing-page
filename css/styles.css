@@ -12,6 +12,7 @@ html {
 /* --- VARIABLES --- */
 :root {
   --dark-background: #1F2937;
+  --quote-background: #E5E7EB;
   --btn-color: #3882F6;
   --main-txt-white: #F9FAF8;
   --secondary-txt-white: #E5E7EB;
