@@ -28,19 +28,21 @@
     </nav>
   </header>
 
-  <main class="container">
-    <section id="main-sect"
-      class="flex-row align-center flex-gap flex-wrap justify-center">
-      <div>
-        <h2>This website is awesome</h2>
-        <p>This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast</p>
-        <button type="button" class="sign-btn">Sign up</button>
+  <main>
+    <section id="main-sect">
+      <div
+        class="flex-row align-center flex-gap flex-wrap justify-center container">
+        <div>
+          <h2>This website is awesome</h2>
+          <p>This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast</p>
+          <button type="button" class="sign-btn">Sign up</button>
+        </div>
+        <img src="https://picsum.photos/400/200" alt="placeholder image">
       </div>
-      <img src="https://picsum.photos/400/200" alt="placeholder image">
     </section>
 
-    <section id="infos-sect">
+    <section id="infos-sect" class="container">
       <h2>Some random information.</h2>
       <div class="flex-row justify-center flex-gap flex-wrap">
         <div class="flex-col">
@@ -63,13 +65,18 @@
     </section>
 
     <section id="quote-sect">
-      <q>This is an inspiring quote, or testimonial from a customer. Maybe it's
-        just filling up space, or maybe people will actually read it. Who knows?
-        All I know is that it looks nice.</q>
-      <span class="author">Thor, God of Thunder</span>
+      <div class="container">
+        <q>This is an inspiring quote, or testimonial from a customer. Maybe
+          it's
+          just filling up space, or maybe people will actually read it. Who
+          knows?
+          All I know is that it looks nice.</q>
+        <span class="author">Thor, God of Thunder</span>
+      </div>
     </section>
 
-    <section id="action-sect" class="flex-row justify-between align-center">
+    <section id="action-sect"
+      class="flex-row justify-between align-center container">
       <div>
         <h2>Call to action! It's time!</h2>
         <p>Sign up for our product by clicking that button right over there!</p>
@@ -78,8 +85,9 @@
     </section>
   </main>
 
-  <footer class="container">
-    <p>Copyright &copy; The Odin Project - CASTELLI Thibault - 2023</p>
+  <footer>
+    <p class="container">Copyright &copy; The Odin Project - CASTELLI Thibault -
+      2023</p>
   </footer>
 </body>
 

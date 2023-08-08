@@ -34,6 +34,10 @@ a {
 }
 
 /* --- HEADER --- */
+header {
+  background-color: var(--dark-background);
+}
+
 header ul {
   list-style: none;
   margin-left: auto;
@@ -50,6 +54,10 @@ header ul li:first-child {
 }
 
 /* --- MAIN SECTION --- */
+#main-sect {
+  background-color: var(--dark-background);
+}
+
 #main-sect img {
   flex: 1;
   height: auto;
@@ -57,7 +65,7 @@ header ul li:first-child {
   max-width: 500px;
 }
 
-#main-sect div {
+#main-sect>div>div {
   flex: 1;
   min-width: 400px;
 }
@@ -81,6 +89,10 @@ header ul li:first-child {
 }
 
 /* --- QUOTE SECTION --- */
+#quote-sect {
+  background-color: var(--quote-background);
+}
+
 .author::before {
   content: "-";
 }
@@ -91,10 +103,14 @@ header ul li:first-child {
 }
 
 /* --- ACTION SECTION --- */
+#action-sect {
+  background-color: var(--btn-color);
+}
 
 
 /* --- FOOTER --- */
 footer {
+  background-color: var(--dark-background);
   text-align: center;
 }
 
