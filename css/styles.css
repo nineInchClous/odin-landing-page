@@ -1,6 +1,10 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
 /* Default box-sizing */
 html {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 *,
@@ -9,6 +13,7 @@ html {
   box-sizing: inherit;
   padding: 0;
   margin: 0;
+  font-family: inherit;
 }
 
 /* --- VARIABLES --- */
