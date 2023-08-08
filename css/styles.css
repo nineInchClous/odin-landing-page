@@ -18,3 +18,28 @@ html {
   --secondary-txt-white: #E5E7EB;
   --txt-dark: #1F2937;
 }
+
+/* --- HEADER --- */
+
+
+/* --- FLEX CLASSES --- */
+.flex-row {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
