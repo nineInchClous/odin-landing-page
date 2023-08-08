@@ -19,8 +19,33 @@ html {
   --txt-dark: #1F2937;
 }
 
-/* --- HEADER --- */
+/* -- GLOBAL STYLING --- */
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --- HEADER --- */
+header ul {
+  list-style: none;
+  margin-left: auto;
+  padding: 0;
+}
+
+header li,
+header a {
+  display: inline-block;
+}
+
+header ul li:first-child {
+  flex-grow: 1;
+}
 
 /* --- FLEX CLASSES --- */
 .flex-row {
@@ -42,4 +67,8 @@ html {
 
 .align-center {
   align-items: center;
+}
+
+.flex-gap {
+  gap: 20px;
 }
