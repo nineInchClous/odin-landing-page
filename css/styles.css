@@ -7,6 +7,8 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 
 /* --- VARIABLES --- */
@@ -47,6 +49,19 @@ header ul li:first-child {
   flex-grow: 1;
 }
 
+/* --- MAIN SECTION --- */
+#main-sect img {
+  flex: 1;
+  height: auto;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+#main-sect div {
+  flex: 1;
+  min-width: 400px;
+}
+
 /* --- FLEX CLASSES --- */
 .flex-row {
   display: flex;
@@ -71,4 +86,8 @@ header ul li:first-child {
 
 .flex-gap {
   gap: 20px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
