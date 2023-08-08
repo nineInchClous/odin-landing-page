@@ -93,6 +93,11 @@ header ul li:first-child {
 /* --- ACTION SECTION --- */
 
 
+/* --- FOOTER --- */
+footer {
+  text-align: center;
+}
+
 /* --- FLEX CLASSES --- */
 .flex-row {
   display: flex;
