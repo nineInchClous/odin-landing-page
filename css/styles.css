@@ -1,5 +1,5 @@
 /* Import font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300&display=swap');
 
 /* Default box-sizing */
 html {
@@ -38,6 +38,27 @@ a {
   color: inherit;
 }
 
+p {
+  font-size: 18px;
+}
+
+.sign-btn {
+  background-color: var(--btn-color);
+  color: var(--secondary-txt-white);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sign-btn:hover {
+  color: var(--main-txt-white);
+  border: 1px solid var(--main-txt-white);
+}
+
 /* --- HEADER --- */
 header {
   background-color: var(--dark-background);
@@ -56,6 +77,22 @@ header a {
 
 header ul li:first-child {
   flex-grow: 1;
+}
+
+h1 {
+  font-size: 24px;
+  color: var(--main-txt-white);
+}
+
+header a {
+  font-size: 18px;
+  color: var(--secondary-txt-white);
+  transition: all 0.2s ease;
+}
+
+header a:hover {
+  color: var(--main-txt-white);
+  font-weight: bold;
 }
 
 /* --- MAIN SECTION --- */
@@ -77,6 +114,15 @@ header ul li:first-child {
   min-width: 400px;
 }
 
+#main-sect h2 {
+  font-size: 48px;
+  color: var(--main-txt-white);
+}
+
+#main-sect p {
+  color: var(--secondary-txt-white);
+}
+
 /* --- INFOS SECTION --- */
 #infos-sect img {
   border-radius: 20px;
@@ -84,10 +130,13 @@ header ul li:first-child {
   height: 250px;
   object-fit: cover;
   margin: 0 auto;
+  border: 4px solid var(--btn-color);
 }
 
 #infos-sect p {
   text-align: center;
+  color: var(--txt-dark);
+  font-size: 14px;
 }
 
 #infos-sect>div div {
@@ -95,9 +144,15 @@ header ul li:first-child {
   min-width: 250px;
 }
 
+#infos-sect h2 {
+  font-size: 36px;
+  color: var(--txt-dark);
+}
+
 /* --- QUOTE SECTION --- */
 #quote-sect {
   background-color: var(--quote-background);
+  color: var(--txt-dark);
 }
 
 .author::before {
@@ -107,6 +162,14 @@ header ul li:first-child {
 .author {
   display: block;
   text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+q {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
 }
 
 /* --- ACTION SECTION --- */
@@ -114,11 +177,25 @@ header ul li:first-child {
   background-color: var(--btn-color);
 }
 
+#action-sect h2 {
+  color: var(--main-txt-white);
+}
+
+#action-sect p {
+  color: var(--secondary-txt-white);
+}
+
+#action-sect button {
+  border: 1px solid var(--main-txt-white);
+}
+
 
 /* --- FOOTER --- */
 footer {
   background-color: var(--dark-background);
   text-align: center;
+  color: var(--secondary-txt-white);
+  font-size: 14px;
 }
 
 /* --- FLEX CLASSES --- */
