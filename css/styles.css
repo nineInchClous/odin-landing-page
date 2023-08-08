@@ -80,6 +80,16 @@ header ul li:first-child {
   min-width: 250px;
 }
 
+/* --- QUOTE SECTION --- */
+.author::before {
+  content: "-";
+}
+
+.author {
+  display: block;
+  text-align: right;
+}
+
 /* --- FLEX CLASSES --- */
 .flex-row {
   display: flex;
