@@ -45,9 +45,9 @@ p {
 .sign-btn {
   background-color: var(--btn-color);
   color: var(--secondary-txt-white);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
-  padding: 5px 30px;
+  padding: 8px 30px;
   border-radius: 10px;
   border: 1px solid transparent;
   cursor: pointer;
@@ -62,6 +62,7 @@ p {
 /* --- HEADER --- */
 header {
   background-color: var(--dark-background);
+  padding: 15px 0;
 }
 
 header ul {
@@ -98,14 +99,15 @@ header a:hover {
 /* --- MAIN SECTION --- */
 #main-sect {
   background-color: var(--dark-background);
+  padding: 100px 0;
 }
 
 #main-sect img {
   flex: 1;
   height: auto;
   min-width: 300px;
-  max-width: 500px;
-  max-height: 200px;
+  max-width: 600px;
+  max-height: 300px;
   object-fit: cover;
 }
 
@@ -121,9 +123,14 @@ header a:hover {
 
 #main-sect p {
   color: var(--secondary-txt-white);
+  margin: 10px 0 20px 0;
 }
 
 /* --- INFOS SECTION --- */
+#infos-sect {
+  padding: 50px 0;
+}
+
 #infos-sect img {
   border-radius: 20px;
   width: 250px;
@@ -137,6 +144,8 @@ header a:hover {
   text-align: center;
   color: var(--txt-dark);
   font-size: 14px;
+  width: 80%;
+  margin: 10px auto 0 auto;
 }
 
 #infos-sect>div div {
@@ -146,13 +155,16 @@ header a:hover {
 
 #infos-sect h2 {
   font-size: 36px;
+  text-align: center;
   color: var(--txt-dark);
+  margin-bottom: 50px;
 }
 
 /* --- QUOTE SECTION --- */
 #quote-sect {
   background-color: var(--quote-background);
   color: var(--txt-dark);
+  padding: 80px 0;
 }
 
 .author::before {
@@ -175,6 +187,9 @@ q {
 /* --- ACTION SECTION --- */
 #action-sect {
   background-color: var(--btn-color);
+  margin: 50px auto;
+  padding: 50px 80px;
+  border-radius: 10px;
 }
 
 #action-sect h2 {
@@ -183,6 +198,7 @@ q {
 
 #action-sect p {
   color: var(--secondary-txt-white);
+  margin-top: 5px;
 }
 
 #action-sect button {
@@ -196,6 +212,7 @@ footer {
   text-align: center;
   color: var(--secondary-txt-white);
   font-size: 14px;
+  padding: 40px 0;
 }
 
 /* --- FLEX CLASSES --- */
