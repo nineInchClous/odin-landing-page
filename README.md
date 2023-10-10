@@ -6,7 +6,7 @@
 
 ## Made with
 - HTML5
-- SCSS
+- CSS
 
 ## Tools used
 - Visual Studio Code
